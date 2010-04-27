@@ -95,13 +95,17 @@
 					</div>
 				</div>
 				<script type="text/javascript">
+				// <![CDATA[
 					$('demoTarget').addTip('Focus this input field to make me disappear.<br />You don\'t have to <em>click</em> into it: <strong>tabbing</strong> in the input field also works.',
 						{ showOn: 'click', hideOn: 'focus', hideTrigger: 'eventDemo', target: 'eventDemo', tipJoint: [ 'center', 'top' ], stem: true });
 					$('eventDemo').addTip('This input field has changed!',
 						{ showOn: 'change', hideTrigger: 'closeButton', target: 'eventDemo', tipJoint: [ 'right', 'middle' ], stem: true });
+
+					var demoTextTarget = 'This one has the <em>button</em> as target.<br />The <strong>target joint</strong> is the bottom left corner, and the <strong>tooltip joint</strong> is the top right corner';
+				// ]]>
 				</script>
 
-				<div class="demo" onmouseover="javascript:Tips.add(this, event, 'This one has the <em>button</em> as target.<br />The <strong>target joint</strong> is the bottom left corner, and the <strong>tooltip joint</strong> is the top right corner', { style: 'slick', target: 'demoTarget', tipJoint: [ 'right', 'top' ], targetJoint: ['left', 'bottom'], stem: true });">
+				<div class="demo" onmouseover="javascript:Tips.add(this, event, demoTextTarget, { style: 'slick', target: 'demoTarget', tipJoint: [ 'right', 'top' ], targetJoint: ['left', 'bottom'], stem: true });">
 					<div class="title">Joints &amp; targets</div>
 					<div class="description">
 						With joints and targets it's extremely easy to position your tooltips exactly where you want them.
