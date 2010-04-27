@@ -260,7 +260,11 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
 				<div class="option" id="option-stem">
 					<span class="name">stem</span><span class="description">Three possible values:<br /><strong>false</strong>: no stem<br /><strong>true</strong>: stem at tipJoint POSITION<br /><strong>POSITION</strong> (for stems in other directions)</span><span class="defaultValue">false</span>
 				</div>
-				<script type="text/javascript">Tips.add('option-stem', '<strong>POSITION</strong> is an array containing 2 values, the horizontal and vertical position, like this: <br />[ \'left|center|right\', \'top|middle|bottom\' ].<br />', { style: 'documentation' });</script>
+				<script type="text/javascript">
+					// <![CDATA[
+					Tips.add('option-stem', '<strong>POSITION</strong> is an array containing 2 values, the horizontal and vertical position, like this: <br />[ \'left|center|right\', \'top|middle|bottom\' ].<br />', { style: 'documentation' });
+					// ]]>
+				</script>
 
 				<div class="option">
 					<span class="name">delay</span><span class="description">In seconds. If null the best delay is automatically chosen (depending on the showOn event).</span><span class="defaultValue">null</span>
@@ -273,17 +277,29 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
 				<div class="option" id="option-fixed">
 					<span class="name">fixed</span><span class="description">If target is not null, elements are always fixed.</span><span class="defaultValue">false</span>
 				</div>
-				<script type="text/javascript">Tips.add('option-fixed', 'Fixed simply means that it does not follow the mouse.', { style: 'documentation' });</script>
+				<script type="text/javascript">
+					// <![CDATA[
+					Tips.add('option-fixed', 'Fixed simply means that it does not follow the mouse.', { style: 'documentation' });
+					// ]]>
+				</script>
 
 				<div class="option" id="option-showOn">
 					<span class="name">showOn</span><span class="description">Event name (eg: 'mouseover'), or 'creation' if you want it to show when the tooltip is created. Null if you want no event.</span><span class="defaultValue">'mouseover'</span>
 				</div>
-				<script type="text/javascript">Tips.add('option-showOn', 'If you add an Opentip directly in an html event (eg: onclick="...") this event will be used.<br />If showOn == \'click\', links will be disabled.', { style: 'documentation' });</script>
+				<script type="text/javascript">
+					// <![CDATA[
+					Tips.add('option-showOn', 'If you add an Opentip directly in an html event (eg: onclick="...") this event will be used.<br />If showOn == \'click\', links will be disabled.', { style: 'documentation' });
+					// ]]>
+				</script>
 
 				<div class="option" id="option-hideTrigger">
 					<span class="name">hideTrigger</span><span class="description">Which element should trigger the hiding process.<br />Possible values are: 'trigger', 'tip', 'target', 'closeButton', <strong>ELEMENT</strong>, or null</span><span class="defaultValue">'trigger'</span>
 				</div>
-				<script type="text/javascript">Tips.add('option-hideTrigger', 'Whenever you see <strong>ELEMENT</strong>, it\'s either an element, or an element id.<br />When you choose \'closeButton\' a button is automatically added to the header.<br />null means you want to trigger the hiding yourself.', { style: 'documentation' });</script>
+				<script type="text/javascript">
+					// <![CDATA[
+					Tips.add('option-hideTrigger', 'Whenever you see <strong>ELEMENT</strong>, it\'s either an element, or an element id.<br />When you choose \'closeButton\' a button is automatically added to the header.<br />null means you want to trigger the hiding yourself.', { style: 'documentation' });
+					// ]]>
+				</script>
 
 				<div class="option">
 					<span class="name">hideOn</span><span class="description">Event name. (eg: 'click'). If false Opentip decides which event is best ('click' for closeButton, 'mouseout' if not).</span><span class="defaultValue">null</span>
@@ -296,7 +312,11 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
 				<div class="option" id="option-autoOffset">
 					<span class="name">autoOffset</span><span class="description">If set to true, offsets are calculated automatically to position the tooltip. (pixels are added if there are stems for example)</span><span class="defaultValue">true</span>
 				</div>
-				<script type="text/javascript">Tips.add('option-autoOffset', 'There are only <strong>very</strong> view cases where you wouldn\'t want this behaviour.<br />Use the offset option in combination with this one.', { style: 'documentation' });</script>
+				<script type="text/javascript">
+					// <![CDATA[
+					Tips.add('option-autoOffset', 'There are only <strong>very</strong> view cases where you wouldn\'t want this behaviour.<br />Use the offset option in combination with this one.', { style: 'documentation' });
+					// ]]>
+				</script>
 
 				<div class="option" id="option-containInViewport">
 					<span class="name">containInViewport</span><span class="description">If set to true, opentips that would appear offscreen are repositioned inside the browser viewport. targetJoints, tipJoints and stems are also repositioned.</span><span class="defaultValue">true</span>
@@ -305,7 +325,11 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
 				<div class="option" id="option-showEffect">
 					<span class="name">showEffect</span><span class="description">The string of the scriptaculous effect you would call as a function on the object.</span><span class="defaultValue">'appear'</span>
 				</div>
-				<script type="text/javascript">Tips.add('option-showEffect', 'For a list of effects, visit the <a target="_blank" href="http://wiki.github.com/madrobby/scriptaculous">scriptaculous wiki</a>.', { style: 'documentation' });</script>
+				<script type="text/javascript">
+					// <![CDATA[
+					Tips.add('option-showEffect', 'For a list of effects, visit the <a target="_blank" href="http://wiki.github.com/madrobby/scriptaculous">scriptaculous wiki</a>.', { style: 'documentation' });
+					// ]]>
+				</script>
 
 				<div class="option">
 					<span class="name">hideEffect</span><span class="description">The same as show effect</span><span class="defaultValue">'fade'</span>
@@ -338,7 +362,11 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
 				<div class="option" id="option-ajax">
 					<span class="name">ajax</span><span class="description">An object formed like this:<br />{ url: 'address', options: { AJAXoptions } }<br />For more information on Ajax tips see the examples section.</span><span class="defaultValue">false</span>
 				</div>
-				<script type="text/javascript">Tips.add('option-ajax', 'For a full reference for Ajax options please visit the <a target="_blank" href="http://www.prototypejs.org/api/ajax/options">prototype api docs</a>.', { style: 'documentation' });</script>
+				<script type="text/javascript">
+					// <![CDATA[
+					Tips.add('option-ajax', 'For a full reference for Ajax options please visit the <a target="_blank" href="http://www.prototypejs.org/api/ajax/options">prototype api docs</a>.', { style: 'documentation' });
+					// ]]>
+				</script>
 
 				<div class="option">
 					<span class="name">group</span><span class="description">Simply pass a string as the group name (eg: 'login'), and all visible tooltips in this group will be hidden when a tooltip in this group is shown.</span><span class="defaultValue">null</span>
