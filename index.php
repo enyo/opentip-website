@@ -232,7 +232,11 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
     <span class="string">'optional title'</span>,
     { options...});
 &lt;/script&gt;</code>
-			<script type="text/javascript">Tips.add('creating-documentation', 'Please note that when creating an opentip in an event (such as onmouseover or onclick) you have to pass <strong>this</strong> and the <strong>event</strong> as first parameters!', { style: 'documentation' });</script>
+			<script type="text/javascript">
+				// <![CDATA[
+				Tips.add('creating-documentation', 'Please note that when creating an opentip in an event (such as onmouseover or onclick) you have to pass <strong>this</strong> and the <strong>event</strong> as first parameters!', { style: 'documentation' });
+				// ]]>
+			</script>
 			<p>
 				The following is also possible, but really just a hack I implemented for compatibility reasons with other tooltip classes.
 			</p>
@@ -240,7 +244,11 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
 new Tip('elementId', etc...); 
 <span class="comment">// When called as event (eg: onmouseover or onclick): </span>
 new Tip(this, event, etc...);</code>
-			<script type="text/javascript">Tips.add('alternative-documentation', 'I strongly advise <strong>not</strong> to use new Tip(), because it does not really create a new object. It\'s merely a wrapper for Tips.add();', { style: 'documentation' });</script>
+			<script type="text/javascript">
+				// <![CDATA[
+				Tips.add('alternative-documentation', 'I strongly advise <strong>not</strong> to use new Tip(), because it does not really create a new object. It\'s merely a wrapper for Tips.add();', { style: 'documentation' });
+				// ]]>
+			</script>
 			<p>
 				Those are the possible ways to pass arguments:
 			</p>
@@ -622,3 +630,4 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
 </div>
 
 </body>
+</html>
