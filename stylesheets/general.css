@@ -186,6 +186,13 @@ ul {
 			width: 200px;
 		}
 
+		#content #googleGroupsLink {
+			background: url("../images/google_groups.gif") no-repeat top left;
+			width: 141px;
+			height: 30px;
+		}
+		#content #googleGroupsLink span { display: none; }
+
 
 
 

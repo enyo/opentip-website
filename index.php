@@ -197,6 +197,8 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
 			}, { style: 'glass', stem: true, showOn: 'click', target: true, tipJoint: [ 'center', 'top' ], hideTrigger: 'closeButton' });
 		</script>
 
+		<a id="googleGroupsLink" class="contact" target="_blank" name="googleGroups" href="http://groups.google.com/group/opentip"><span>Google groups</span></a>
+
 	</div>
 	<script type="text/javascript">
 		Opentip.styles.documentation = {
@@ -537,7 +539,7 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
 			<a name="documentation-advanced"></a>
 			<h2>Advanced</h2>
 			<p>
-				There are a view more usefull properties of the opentip class, that are not needed that often, but are quite useful.<br />
+				There are a view more useful properties of the opentip class, that are not needed that often, but are quite useful.<br />
 			</p>
 			<h3>Debugging with Firebug or Safari</h3>
 			<p>
