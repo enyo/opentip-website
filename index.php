@@ -142,6 +142,10 @@
 
 		<a onmouseover="javascript:Tips.add(this, event, 'You know you want to...', { delay: 5 });" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/"><span class="big">Download Opentip</span><span class="version">1.2.5</span><span class="date">Nov, 30 2009</span></a>
 
+		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:750px; height:35px;" allowTransparency="true"></iframe>
+		
+		
+
 		<div class="box">
 			<h2>Implementation</h2>
 			<p>
@@ -607,8 +611,6 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
 		</div>
 	</div>
 	<div id="footer">
-		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=dark&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
-		<br /><br />
 		Graphics: <strong>Tjandra Mayerhold</strong>, Programming: <strong>Matthias Loitsch</strong><br /><br />
 		Thanks to:<br /><br />
 		&nbsp;&nbsp;<em>Florian Loitsch</em> for teaching me all I know about Javascript.<br />
