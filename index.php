@@ -8,6 +8,10 @@
 
 	<title>Opentip | The free tooltip</title>
 
+	<!-- Facebook like button: -->
+	<meta property="og:title" content="The free tooltip"/>
+	<meta property="og:site_name" content="Opentip"/>
+
 	<style type="text/css">
 		@import "http://src.opentip.org/opentip.css";
 		@import "http://src.opentip.org/opentip.contentDesign.css";
@@ -603,6 +607,8 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
 		</div>
 	</div>
 	<div id="footer">
+		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=dark&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+		<br /><br />
 		Graphics: <strong>Tjandra Mayerhold</strong>, Programming: <strong>Matthias Loitsch</strong><br /><br />
 		Thanks to:<br /><br />
 		&nbsp;&nbsp;<em>Florian Loitsch</em> for teaching me all I know about Javascript.<br />
