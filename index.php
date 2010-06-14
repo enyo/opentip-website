@@ -9,8 +9,8 @@
 	<title>Opentip | The free tooltip</title>
 
 	<!-- Facebook like button: -->
-	<meta property="og:title" content="The free tooltip"/>
-	<meta property="og:site_name" content="Opentip"/>
+	<meta property="og:title" content="Opentip"/>
+	<meta property="og:site_name" content="www.opentip.org"/>
 
 	<style type="text/css">
 		@import "http://src.opentip.org/opentip.css";
