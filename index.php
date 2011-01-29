@@ -1,5 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="matthias loitsch" />
@@ -389,6 +391,11 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
 				<div class="option">
 					<span class="name">group</span><span class="description">Simply pass a string as the group name (eg: 'login'), and all visible tooltips in this group will be hidden when a tooltip in this group is shown.</span><span class="defaultValue">null</span>
 				</div>
+
+				<div class="option">
+					<span class="name">escapeHtml</span><span class="description">If true, the passed content will be html escaped.</span><span class="defaultValue">false</span>
+				</div>
+
 
 			</div>
 			<p>
