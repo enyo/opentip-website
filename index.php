@@ -84,13 +84,19 @@
 				<div class="demo" id="effectsDemo">
 					<div class="title">Effects</div>
 					<div class="description">
-						You can easily use any effect scriptaculous offers to make a toolmake appear or disappear.
+						You can easily use any effect to make a tooltip appear or disappear. Opentip uses CSS3 or Scriptaculous to animate.
 					</div>
 				</div>
 				<script type="text/javascript">
 					Tips.add('effectsDemo', 'This one fades in.',   { showEffect: 'appear',    showEffectDuration: 1, delay: 0,   target: true, stem: true, tipJoint: [ 'left', 'bottom' ], targetJoint: [ 'center', 'top' ] });
 					Tips.add('effectsDemo', 'This one grows',       { showEffect: 'grow',      showEffectDuration: 1, delay: 0.8, target: true, stem: true, tipJoint: [ 'left', 'middle' ], targetJoint: [ 'right',  'middle' ] });
-					Tips.add('effectsDemo', 'This one blinds down', { showEffect: 'blindDown', showEffectDuration: 1, delay: 1.6, target: true, stem: true, tipJoint: [ 'left', 'top' ],    targetJoint: [ 'center', 'bottom' ] });
+                    if (Opentip.useCss3Transitions) {
+                      Tips.add('effectsDemo', 'This one rotates', { showEffect: 'rotate', hideEffect: 'rotate', showEffectDuration: 1, hideEffectDuration: 1, delay: 1.6, target: true, stem: true, tipJoint: [ 'left', 'top' ],    targetJoint: [ 'center', 'bottom' ] });
+                    }
+                    else {
+                      Tips.add('effectsDemo', 'This one blinds down', { showEffect: 'blindDown', showEffectDuration: 1, delay: 1.6, target: true, stem: true, tipJoint: [ 'left', 'top' ],    targetJoint: [ 'center', 'bottom' ] });
+                    }
+					
 				</script>
 
 				<div class="demo">
