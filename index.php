@@ -15,15 +15,15 @@
 	<meta property="og:site_name" content="www.opentip.org"/>
 
 	<style type="text/css">
-		@import "http://src.opentip.org/opentip.css";
-		@import "http://src.opentip.org/opentip.contentDesign.css";
+		@import "http://src.opentip.org/opentip.css?v=2";
+		@import "http://src.opentip.org/opentip.contentDesign.css?v=2";
 		@import "stylesheets/general.css";
 	</style>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
-	<script type="text/javascript" src="http://src.opentip.org/opentip.js"></script>
+	<script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
 <!--	<script type="text/javascript" src="http://unstable.opentip.org/opentip.js"></script>-->
 
 	<script type="text/javascript">
