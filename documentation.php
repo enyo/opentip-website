@@ -306,8 +306,8 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
       <code>Tips.add(this, event, { ajax: { options: [...] } });</code>
       <h3>Forms</h3>
       <p>
-        Opentip is quite usefull to manage forms too.<br />
-        This example shows how you would notifiy a user an input field is not correct.<br />
+        Opentip is quite useful to manage forms too.<br />
+        This example shows how you would notify a user an input field is not correct.<br />
         In this case username can't be empty, and the notification only disappears when the user changes the input.
       </p>
       <code id="form-example-code">
