@@ -52,6 +52,7 @@ ul {
 
 
 	#header .logo {
+      display: block;
 		width: 443px;
 		height: 120px;
 		background: url("../images/logo.png") no-repeat;
@@ -71,7 +72,7 @@ ul {
 	#content {
 		padding: 50px;
 	}
-		#content h1 {
+		#content h1, #documentation h1 {
 			font-family: georgia, serif;
 			font-size: 30px;
 			line-height: 150%;
@@ -136,45 +137,6 @@ ul {
 					width: 190px;
 					color: #555555;
 				}
-		#content a.download {
-			position: relative;
-			width: 470px;
-			height: 90px;
-			text-decoration: none;
-			display: block;
-			background: url("../images/button.download.png") no-repeat 0 0;
-			margin: 60px auto 60px auto;
-			color: #0f5086;
-		}
-			#content a.download .big {
-				font-size: 30px;
-				font-weight: bold;
-				position: absolute;
-				display: block;
-				top: 33px;
-				left: 90px;
-				text-align: center;
-				width: 340px
-			}
-			#content a.download .version, #content a.download .date {
-				font-size: 10px;
-				font-weight: normal;
-				position: absolute;
-			}
-			#content a.download .version {
-				top: 30px;
-				right: 30px;
-			}
-			#content a.download .date {
-				left: 130px;
-				bottom: 12px;
-				color: #aaaaaa;
-			}
-		#content a.download:hover {
-			background-position: 0 -90px;
-			color: #3F80C6;
-		}
-
 
 		#content a.contact {
 			color: #0f5086;
@@ -197,15 +159,8 @@ ul {
 
 
 	#documentation {
-		margin-top: 50px;
+		
 	}
-		#documentation h1 {
-			font-size: 44px;
-			line-height: 150%;
-			font-weight: bold;
-			color: white;
-			margin: 0 0 5px 0;
-		}
 		#documentation h2 {
 			margin: 20px 0;
 		}
@@ -257,6 +212,44 @@ ul {
 	}
 
 
+		a.download {
+			position: relative;
+			width: 470px;
+			height: 90px;
+			text-decoration: none;
+			display: block;
+			background: url("../images/button.download.png") no-repeat 0 0;
+			margin: 60px auto 60px auto;
+			color: #0f5086;
+		}
+			a.download .big {
+				font-size: 30px;
+				font-weight: bold;
+				position: absolute;
+				display: block;
+				top: 33px;
+				left: 90px;
+				text-align: center;
+				width: 340px
+			}
+			a.download .version, a.download .date {
+				font-size: 10px;
+				font-weight: normal;
+				position: absolute;
+			}
+			a.download .version {
+				top: 30px;
+				right: 30px;
+			}
+			a.download .date {
+				left: 130px;
+				bottom: 12px;
+				color: #aaaaaa;
+			}
+		a.download:hover {
+			background-position: 0 -90px;
+			color: #3F80C6;
+		}
 
 #opentipFormTest {
 	border: 1px solid silver;
