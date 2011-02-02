@@ -89,8 +89,8 @@
         </div>
         <script type="text/javascript">
           if (Opentip.useCss3Transitions) {
-            Tips.add('effectsDemo', 'This one fades in.',   { showEffect: 'appear',    showEffectDuration: 1, delay: 0,   target: true, stem: true, tipJoint: [ 'center', 'bottom' ], targetJoint: [ 'center', 'top' ] });
-            Tips.add('effectsDemo', 'This one grows.',       { showEffect: 'grow',      showEffectDuration: 1, delay: 0.2, target: true, stem: true, tipJoint: [ 'left', 'middle' ], targetJoint: [ 'right',  'middle' ] });
+            Tips.add('effectsDemo', 'This one fades in.',   { showEffect: 'appear',    showEffectDuration: 1, hideEffectDuration: 1, delay: 0,   target: true, stem: true, tipJoint: [ 'center', 'bottom' ], targetJoint: [ 'center', 'top' ] });
+            Tips.add('effectsDemo', 'This one grows.',       { showEffect: 'grow', hideEffect: 'shrink',     showEffectDuration: 1, hideEffectDuration: 1, delay: 0.2, target: true, stem: true, tipJoint: [ 'left', 'middle' ], targetJoint: [ 'right',  'middle' ] });
             Tips.add('effectsDemo', 'This one rotates.', { showEffect: 'rotate', hideEffect: 'rotate', showEffectDuration: 1, hideEffectDuration: 1, delay: 0.8, target: true, stem: true, tipJoint: [ 'center', 'top' ],    targetJoint: [ 'center', 'bottom' ] });
             Tips.add('effectsDemo', 'This one kinda shrinks and stuff.', { showEffect: 'condense', hideEffect: 'puff', showEffectDuration: 1, hideEffectDuration: 1, delay: 1.2, target: true, stem: true, tipJoint: [ 'right', 'middle' ], targetJoint: [ 'left', 'middle' ] });
           }
