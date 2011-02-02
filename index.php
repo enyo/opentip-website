@@ -150,7 +150,7 @@
       <div class="clear"></div>
     </div>
 
-    <a onmouseover="javascript:Tips.add(this, event, 'You know you want to...', { delay: 5 });" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/"><span class="big">Download Opentip</span><span class="version">1.2.8</span><span class="date">Nov, 30 2009</span></a>
+    <a onmouseover="javascript:Tips.add(this, event, 'You know you want to...', { delay: 5 });" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/"><span class="big">Download Opentip</span><span class="version">1.2.9</span><span class="date">Feb, 02 2011</span></a>
 
     <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:750px; height:35px;" allowTransparency="true"></iframe>
     
@@ -160,7 +160,14 @@
       <h2>Implementation</h2>
       <p>
         Creating a tooltip is really easy.<br />
-        Either define it in the element event (be sure to pass the <strong>event</strong>):
+        The easiest way is to define the tooltip via element tags:
+      </p>
+      <code>&lt;div ot="<span class="string">Shown after 2 seconds.</span>" ot-delay="2.0"&gt;&lt;/div&gt;</code>
+      <p>
+        All options to define your tooltip can be passed like this. Just prefix them with ot- and use dashes (eg.: ot-show-effect="blindDown").
+      </p>
+      <p>
+        Or you can define it in the element event (be sure to pass the <strong>event</strong>):
       </p>
       <code>&lt;div onmouseover="javascript:Tips.add(this, event, <span class="string">'content'</span>, <span class="string">'optional title'</span>);"&gt;&lt;/div&gt;</code>
       <p>

@@ -74,20 +74,24 @@
     <div class="content">
       <h2>Documentation</h2>
       <p>
-        An opentip can be created in two different ways. Both are completely equivalent:
+        An opentip can be created in three different ways. All are completely equivalent:
       </p>
-      <code id="creating-documentation">&lt;div onmouseover="javascript:Tips.add(
+      <code id="creating-documentation">&lt;div ot="<span class="string">content</span>"
+  ot-title="<span class="string">optional title</span>"
+  ot-show-effect="<span class="string">appear</span>" ...&gt;&lt;/div&gt;
+
+&lt;div onmouseover="javascript:Tips.add(
   <span class="constant">this</span>,
   <span class="constant">event</span>,
   <span class="string">'content'</span>,
   <span class="string">'optional title'</span>,
-  { options... });"&gt;&lt;/div&gt;
+  { showEffect: <span class="string">'appear'</span>, ... });"&gt;&lt;/div&gt;
 
 &lt;script type="text/javascript"&gt;
   $('elementId').addTip(
     <span class="string">'content'</span>,
     <span class="string">'optional title'</span>,
-    { options...});
+    { showEffect: <span class="string">'appear'</span>, ... });
 &lt;/script&gt;</code>
       <script type="text/javascript">
         // <![CDATA[
@@ -113,6 +117,9 @@ new Tip(this, event, etc...);</code>
 $('elementId').addTip(<span class="string">'content'</span>, { options...});<br />
 $('elementId').addTip({ options...}); <span class="comment">// Only makes sens with AJAX</span></code>
       <a name="documentation-options"></a>
+      <p>
+        Note, that when using html element tags, all options you could pass with the options object can be specified as element tags. Simply prefix them with ot- and use dashes.
+      </p>
       <h2>Options</h2>
       <p>
         The options object contains following values:
@@ -460,7 +467,8 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
         If you can't live with that... well contact me. If I have a good day I'll implement some workarounds.
       </li>
     </ul>
-      <a onmouseover="javascript:Tips.add(this, event, 'You know you want to...', { delay: 5 });" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/"><span class="big">Download Opentip</span><span class="version">1.2.8</span><span class="date">Nov, 30 2009</span></a>
+
+    <a onmouseover="javascript:Tips.add(this, event, 'You know you want to...', { delay: 5 });" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/"><span class="big">Download Opentip</span><span class="version">1.2.9</span><span class="date">Feb, 02 2011</span></a>
 
     </div>
   </div>
