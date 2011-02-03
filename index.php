@@ -150,7 +150,7 @@
       <div class="clear"></div>
     </div>
 
-    <a onmouseover="javascript:Tips.add(this, event, 'You know you want to...', { delay: 5 });" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/"><span class="big">Download Opentip</span><span class="version">1.2.9</span><span class="date">Feb, 02 2011</span></a>
+    <?php include(dirname(__FILE__) . '/downloadButton.php'); ?>
 
     <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:750px; height:35px;" allowTransparency="true"></iframe>
     

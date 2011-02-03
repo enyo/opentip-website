@@ -468,7 +468,7 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
       </li>
     </ul>
 
-    <a onmouseover="javascript:Tips.add(this, event, 'You know you want to...', { delay: 5 });" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/"><span class="big">Download Opentip</span><span class="version">1.2.9</span><span class="date">Feb, 02 2011</span></a>
+    <?php include(dirname(__FILE__) . '/downloadButton.php'); ?>
 
     </div>
   </div>
