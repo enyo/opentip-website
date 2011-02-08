@@ -22,7 +22,7 @@
     @import "stylesheets/general.css";
   </style>
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
   <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
