@@ -16,10 +16,11 @@
     @import "stylesheets/general.css";
   </style>
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
   <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
+<!--  <script type="text/javascript" src="http://10.0.0.10/opentip/opentip.js?v=2"></script>-->
 <!--  <script type="text/javascript" src="http://unstable.opentip.org/opentip.js"></script>-->
 
   <script type="text/javascript">
@@ -194,18 +195,27 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
           <span class="name">containInViewport</span><span class="description">If set to true, opentips that would appear offscreen are repositioned inside the browser viewport. targetJoints, tipJoints and stems are also repositioned.</span><span class="defaultValue">true</span>
         </div>
 
-        <div class="option" id="option-showEffect">
+        <div class="option" ot-style="documentation" ot="For a list of effects, visit the &lt;a target='_blank' href='http://wiki.github.com/madrobby/scriptaculous'&gt;scriptaculous wiki&lt;/a&gt;.">
           <span class="name">showEffect</span><span class="description">The string of the scriptaculous effect you would call as a function on the object.</span><span class="defaultValue">'appear'</span>
         </div>
         <script type="text/javascript">
           // <![CDATA[
-          Tips.add('option-showEffect', 'For a list of effects, visit the <a target="_blank" href="http://wiki.github.com/madrobby/scriptaculous">scriptaculous wiki</a>.', { style: 'documentation' });
+//          Tips.add('option-showEffect', 'For a list of effects, visit the <a target="_blank" href="http://wiki.github.com/madrobby/scriptaculous">scriptaculous wiki</a>.', { style: 'documentation' });
           // ]]>
         </script>
 
         <div class="option">
+          <span class="name">fallbackShowEffect</span><span class="description">If the browser has to use scriptaculous, and the showEffect does not exist, this effect will be set as showEffect instead.</span><span class="defaultValue">'appear'</span>
+        </div>
+
+        <div class="option">
           <span class="name">hideEffect</span><span class="description">The same as show effect</span><span class="defaultValue">'fade'</span>
         </div>
+
+        <div class="option">
+          <span class="name">fallbackHideEffect</span><span class="description">The same as fallback show effect</span><span class="defaultValue">'fade'</span>
+        </div>
+
 
         <div class="option">
           <span class="name">showEffectDuration</span><span class="description">Expressed in seconds</span><span class="defaultValue">0.3</span>

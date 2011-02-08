@@ -10,10 +10,12 @@
 
   <title>Opentip | The free tooltip</title>
 
-  <!-- Facebook like button: -->
+  <!--
+  For facebook like button, commented out for xhtml validation.
+  Facebook still processes it.
   <meta property="og:title" content="Opentip"/>
   <meta property="og:site_name" content="www.opentip.org"/>
-
+  -->
   <style type="text/css">
     @import "http://src.opentip.org/opentip.css?v=2";
     @import "http://src.opentip.org/opentip.contentDesign.css?v=2";
@@ -152,7 +154,7 @@
 
     <?php include(dirname(__FILE__) . '/downloadButton.php'); ?>
 
-    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:750px; height:35px;" allowTransparency="true"></iframe>
+    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:750px; height:35px;"></iframe>
     
     
 
