@@ -26,6 +26,7 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
   <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
+<!--  <script type="text/javascript" src="http://10.0.0.10/opentip/opentip.js?v=2"></script>-->
 <!--  <script type="text/javascript" src="http://unstable.opentip.org/opentip.js"></script>-->
 
   <script type="text/javascript">
