@@ -5,8 +5,8 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="matthias loitsch" />
-  <meta name="description" content="Opentip is a free powerful tooltip class based on the prototype framework." />
-  <meta name="keywords" content="tooltip opentip prototip alternative prototype free open source opensource" />
+  <meta name="description" content="Opentip is a free powerful javascript tooltip class based on the prototype framework." />
+  <meta name="keywords" content="tooltip opentip prototip alternative prototype free open source opensource library javascript" />
 
   <title>Opentip | The free tooltip</title>
 
