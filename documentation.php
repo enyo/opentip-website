@@ -75,6 +75,24 @@
     <div class="content">
       <h2>Documentation</h2>
       <p>
+        To get started, download the latest opentip package and unzip it in YOUR_PATH.<br />
+        Then, in your HTML, include prototype.js, opentip.css, opentip.js and excanvas.js.<br />
+        Obviously if you already have prototype or excanvas include, all you need are the 2 opentip files.<br />
+        You do <strong>not</strong> have to include scriptaculous! Opentip uses css3 animations when available. Scriptaculous is just a fallback for older
+        browsers.<br />
+        I recommend using <a href="http://code.google.com/apis/libraries/devguide.html">Google APIs</a> for prototype and scriptaculous.
+      </p>
+      <code><?php echo htmlentities('<script type="text/javascript" src="SOME_PATH/prototype.js"></script>'); ?>
+        
+<?php echo htmlentities('<script type="text/javascript" src="SOME_PATH/scriptaculous.js"></script>'); ?>
+        
+<?php echo htmlentities('<script type="text/javascript" src="YOUR_PATH/opentip.js"></script>'); ?>
+        
+<?php echo htmlentities('<script type="text/javascript" src="YOUR_PATH/excanvas.js"></script>'); ?>
+        
+<?php echo htmlentities('<link rel="stylesheet" type="text/css" href="YOUR_PATH/opentip.css" />'); ?>
+      </code>
+      <p>
         An opentip can be created in three different ways. All are completely equivalent:
       </p>
       <code id="creating-documentation">&lt;div ot="<span class="string">content</span>"
