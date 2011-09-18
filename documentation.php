@@ -4,7 +4,7 @@
       xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="author" content="matthias loitsch" />
+  <meta name="author" content="matias meno" />
   <meta name="description" content="Opentip is a free powerful tooltip class based on the prototype framework." />
   <meta name="keywords" content="tooltip opentip prototip alternative prototype free open source opensource" />
 
@@ -12,7 +12,6 @@
 
   <style type="text/css">
     @import "http://src.opentip.org/opentip.css?v=2";
-    @import "http://src.opentip.org/opentip.contentDesign.css?v=2";
     @import "stylesheets/general.css";
   </style>
 
@@ -20,6 +19,7 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
   <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
+  <script type="text/javascript" src="http://src.opentip.org/excanvas.js?v=3"></script>
 <!--  <script type="text/javascript" src="http://10.0.0.10/opentip/opentip.js?v=2"></script>-->
 <!--  <script type="text/javascript" src="http://unstable.opentip.org/opentip.js"></script>-->
 
@@ -504,13 +504,13 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
     </div>
   </div>
   <div id="footer">
-    Graphics: <strong>Tjandra Mayerhold</strong>, Programming: <strong>Matthias Loitsch</strong><br /><br />
+    Graphics: <strong>Tjandra Mayerhold</strong>, Programming: <strong>Matias Meno</strong><br /><br />
     Thanks to:<br /><br />
     &nbsp;&nbsp;<em>Florian Loitsch</em> for teaching me all I know about Javascript.<br />
     &nbsp;&nbsp;<em>Hannah Mayr</em> for understanding and encouraging my enthusiasm in open source projects.<br />
     <br />
     Licenced under the <strong>MIT</strong> Licence.<br /><br />
-    Copyright (c) 2009, Matthias Loitsch<br />
+    Copyright (c) 2009, Matias Meno<br />
     <br />
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
