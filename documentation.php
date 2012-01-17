@@ -19,6 +19,9 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
+  <script type="text/javascript" src="opentip/opentip.js?v=3"></script>
+  <script type="text/javascript" src="opentip/excanvas.js?v=3"></script>
+
   <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
 <!--  <script type="text/javascript" src="http://10.0.0.10/opentip/opentip.js?v=2"></script>-->
 <!--  <script type="text/javascript" src="http://unstable.opentip.org/opentip.js"></script>-->
@@ -83,13 +86,13 @@
         I recommend using <a href="http://code.google.com/apis/libraries/devguide.html">Google APIs</a> for prototype and scriptaculous.
       </p>
       <code><?php echo htmlentities('<script type="text/javascript" src="SOME_PATH/prototype.js"></script>'); ?>
-        
+
 <?php echo htmlentities('<script type="text/javascript" src="SOME_PATH/scriptaculous.js"></script>'); ?>
-        
+
 <?php echo htmlentities('<script type="text/javascript" src="YOUR_PATH/opentip.js"></script>'); ?>
-        
+
 <?php echo htmlentities('<script type="text/javascript" src="YOUR_PATH/excanvas.js"></script>'); ?>
-        
+
 <?php echo htmlentities('<link rel="stylesheet" type="text/css" href="YOUR_PATH/opentip.css" />'); ?>
       </code>
       <p>
@@ -121,7 +124,7 @@
         The following is also possible, but really just a hack I implemented for compatibility reasons with other tooltip classes.
       </p>
       <code id="alternative-documentation"><span class="comment">// When called externally:</span>
-new Tip('elementId', etc...); 
+new Tip('elementId', etc...);
 <span class="comment">// When called as event (eg: onmouseover or onclick): </span>
 new Tip(this, event, etc...);</code>
       <script type="text/javascript">
