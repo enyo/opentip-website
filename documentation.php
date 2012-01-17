@@ -4,7 +4,7 @@
       xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="author" content="matthias loitsch" />
+  <meta name="author" content="matias meno" />
   <meta name="description" content="Opentip is a free powerful tooltip class based on the prototype framework." />
   <meta name="keywords" content="tooltip opentip prototip alternative prototype free open source opensource" />
 
@@ -12,7 +12,6 @@
 
   <style type="text/css">
     @import "http://src.opentip.org/opentip.css?v=2";
-    @import "http://src.opentip.org/opentip.contentDesign.css?v=2";
     @import "stylesheets/general.css";
   </style>
 
@@ -23,6 +22,7 @@
   <script type="text/javascript" src="opentip/excanvas.js?v=3"></script>
 
   <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
+  <script type="text/javascript" src="http://src.opentip.org/excanvas.js?v=3"></script>
 <!--  <script type="text/javascript" src="http://10.0.0.10/opentip/opentip.js?v=2"></script>-->
 <!--  <script type="text/javascript" src="http://unstable.opentip.org/opentip.js"></script>-->
 
@@ -36,17 +36,20 @@
     };
 //     Opentip.debugging = true;
   </script>
+  
+  
+  <!-- Google analytics  -->
   <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25510040-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
   </script>
-  <script type="text/javascript">
-    try {
-      var pageTracker = _gat._getTracker("UA-10460456-1");
-      pageTracker._trackPageview();
-    } catch(err) {}
-  </script>
-  <meta name="verify-v1" content="u0cxJg5eYRK2tPEV2xWauQ9ahgNEI9gHXnvCZix8yZE=" />
 </head>
 <body>
 
@@ -504,13 +507,13 @@ $('myElement').addTip('Just testing.', { style: 'myNewStyle' });</code>
     </div>
   </div>
   <div id="footer">
-    Graphics: <strong>Tjandra Mayerhold</strong>, Programming: <strong>Matthias Loitsch</strong><br /><br />
+    Graphics: <strong>Tjandra Mayerhold</strong>, Programming: <strong>Matias Meno</strong><br /><br />
     Thanks to:<br /><br />
     &nbsp;&nbsp;<em>Florian Loitsch</em> for teaching me all I know about Javascript.<br />
     &nbsp;&nbsp;<em>Hannah Mayr</em> for understanding and encouraging my enthusiasm in open source projects.<br />
     <br />
     Licenced under the <strong>MIT</strong> Licence.<br /><br />
-    Copyright (c) 2009, Matthias Loitsch<br />
+    Copyright (c) 2009, Matias Meno<br />
     <br />
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
