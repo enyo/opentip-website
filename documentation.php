@@ -18,9 +18,6 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
-  <script type="text/javascript" src="opentip/opentip.js?v=3"></script>
-  <script type="text/javascript" src="opentip/excanvas.js?v=3"></script>
-
   <script type="text/javascript" src="http://src.opentip.org/master/opentip.js?v=2"></script>
   <script type="text/javascript" src="http://src.opentip.org/master/excanvas.js?v=3"></script>
 <!--  <script type="text/javascript" src="http://10.0.0.10/opentip/opentip.js?v=2"></script>-->
