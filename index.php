@@ -17,15 +17,15 @@
   <meta property="og:site_name" content="www.opentip.org"/>
   -->
   <style type="text/css">
-    @import "http://src.opentip.org/opentip.css?v=2";
+    @import "http://src.opentip.org/master/opentip.css?v=2";
     @import "stylesheets/general.css";
   </style>
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
 
-  <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=3"></script>
-  <script type="text/javascript" src="http://src.opentip.org/excanvas.js?v=3"></script>
+  <script type="text/javascript" src="http://src.opentip.org/master/opentip.js?v=3"></script>
+  <script type="text/javascript" src="http://src.opentip.org/master/excanvas.js?v=3"></script>
 
   <script type="text/javascript">
     Opentip.styles.codeSample = {
@@ -37,8 +37,8 @@
     };
 //     Opentip.debugging = true;
   </script>
-  
-  
+
+
   <!-- Google analytics  -->
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -157,8 +157,8 @@
     <?php include(dirname(__FILE__) . '/downloadButton.php'); ?>
 
     <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.opentip.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:750px; height:35px;"></iframe>
-    
-    
+
+
 
     <div class="box">
       <h2>Implementation</h2>
@@ -202,7 +202,7 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
 
     <a id="contactLink" class="contact" name="contact" href="javascript:undefined">Contact me</a>
     <script type="text/javascript">
-      
+
       var buildForm = function(tip) {
         var name, email, message;
 
@@ -238,7 +238,7 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
           Opentip.element('button', { type: 'submit' }, 'Send message')
         ]).observe('submit', submitForm);
       };
-      
+
       $('contactLink').addTip(buildForm, { style: 'glass', stem: true, showOn: 'click', target: true, tipJoint: [ 'center', 'top' ], hideTrigger: 'closeButton' });
     </script>
 

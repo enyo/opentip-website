@@ -11,7 +11,7 @@
   <title>Opentip | Documentation</title>
 
   <style type="text/css">
-    @import "http://src.opentip.org/opentip.css?v=2";
+    @import "http://src.opentip.org/master/opentip.css?v=2";
     @import "stylesheets/general.css";
   </style>
 
@@ -21,8 +21,8 @@
   <script type="text/javascript" src="opentip/opentip.js?v=3"></script>
   <script type="text/javascript" src="opentip/excanvas.js?v=3"></script>
 
-  <script type="text/javascript" src="http://src.opentip.org/opentip.js?v=2"></script>
-  <script type="text/javascript" src="http://src.opentip.org/excanvas.js?v=3"></script>
+  <script type="text/javascript" src="http://src.opentip.org/master/opentip.js?v=2"></script>
+  <script type="text/javascript" src="http://src.opentip.org/master/excanvas.js?v=3"></script>
 <!--  <script type="text/javascript" src="http://10.0.0.10/opentip/opentip.js?v=2"></script>-->
 <!--  <script type="text/javascript" src="http://unstable.opentip.org/opentip.js"></script>-->
 
@@ -36,8 +36,8 @@
     };
 //     Opentip.debugging = true;
   </script>
-  
-  
+
+
   <!-- Google analytics  -->
   <script type="text/javascript">
     var _gaq = _gaq || [];
