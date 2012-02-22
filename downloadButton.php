@@ -1,1 +1,1 @@
-<a ot="You know you want to..." ot-delay="5" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/downloads"><span class="big">Download Opentip</span><span class="version">1.4.0</span><span class="date">May, 09 2011</span></a>
+<a ot="You know you want to..." ot-delay="5" target="_blank" name="download" class="download" href="http://github.com/enyo/opentip/tags"><span class="big">Download Opentip</span><span class="version">1.4.2</span><span class="date">Jan, 17 2012</span></a>
