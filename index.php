@@ -190,7 +190,7 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
   etc...<br />
 });</code>
       <h2>jQuery</h2>
-      <p>I'm currently working on porting Opentip to jQuery. There is a lot to be done, but I guess it will be ready in October.</p>
+      <p>I'm currently working on porting Opentip to jQuery. There is a lot to be done, but I guess it will be ready in 2012.</p>
 
       <h2>Documentation</h2>
       <p>
