@@ -6,7 +6,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="matias meno" />
   <meta name="description" content="Opentip is a free powerful javascript tooltip class based on the prototype framework." />
-  <meta name="keywords" content="tooltip opentip prototip alternative prototype free open source opensource library javascript" />
+  <meta name="keywords" content="tooltip opentip prototip alternative prototype free open source opensource library javascript ender npm" />
 
   <title>Opentip | The free tooltip</title>
 
@@ -166,9 +166,9 @@
         Creating a tooltip is really easy.<br />
         The easiest way is to define the tooltip via element tags:
       </p>
-      <code>&lt;div ot="<span class="string">Shown after 2 seconds.</span>" ot-delay="2.0"&gt;&lt;/div&gt;</code>
+      <code>&lt;div data-ot="<span class="string">Shown after 2 seconds.</span>" data-ot-delay="2.0"&gt;&lt;/div&gt;</code>
       <p>
-        All options to define your tooltip can be passed like this. Just prefix them with ot- and use dashes (eg.: ot-show-effect="blindDown").
+        All options to define your tooltip can be passed like this. Just prefix them with data-ot- and use dashes (eg.: data-ot-show-effect="blindDown").
       </p>
       <p>
         Or you can define it in the element event (be sure to pass the <strong>event</strong>):
@@ -196,6 +196,18 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
       <p>
         For further information, please read the <a href="documentation.php">full documentation</a>!<br />
         Have fun.
+      </p>
+
+
+      <br />
+      <br />
+      <br />
+      <h2>Other</h2>
+      <p>
+        I'm currently rewriting Opentip to use <a href="http://ender.no.de/">Ender</a>. I'll be maintaining the prototype version as well but new features will go to the ender version.
+      </p>
+      <p>
+        You might also be interested in another project of mine: <a href="http://www.formwatcher.org/">www.formwatcher.org</a>.
       </p>
     </div>
 
@@ -248,11 +260,11 @@ $(<span class="string">'elementId'</span>).addTip(<span class="string">'content'
   <div id="footer">
     Graphics: <strong>Tjandra Mayerhold</strong>, Programming: <strong>Matias Meno</strong><br /><br />
     Thanks to:<br /><br />
-    &nbsp;&nbsp;<em>Florian Loitsch</em> for teaching me all I know about Javascript.<br />
+    &nbsp;&nbsp;<em>Florian Loitsch</em> for teaching me all I know about JavaScript.<br />
     &nbsp;&nbsp;<em>Hannah Mayr</em> for understanding and encouraging my enthusiasm in open source projects.<br />
     <br />
     Licenced under the <strong>MIT</strong> Licence.<br /><br />
-    Copyright (c) 2009, Matias Meno<br />
+    Copyright (c) 2009-2012, Matias Meno<br />
     <br />
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

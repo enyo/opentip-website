@@ -98,9 +98,9 @@
       <p>
         An opentip can be created in three different ways. All are completely equivalent:
       </p>
-      <code id="creating-documentation">&lt;div ot="<span class="string">content</span>"
-  ot-title="<span class="string">optional title</span>"
-  ot-show-effect="<span class="string">appear</span>" ...&gt;&lt;/div&gt;
+      <code id="creating-documentation">&lt;div data-ot="<span class="string">content</span>"
+  data-ot-title="<span class="string">optional title</span>"
+  data-ot-show-effect="<span class="string">appear</span>" ...&gt;&lt;/div&gt;
 
 &lt;div onmouseover="javascript:Tips.add(
   <span class="constant">this</span>,
@@ -140,7 +140,7 @@ $('elementId').addTip(<span class="string">'content'</span>, { options...});<br 
 $('elementId').addTip({ options...}); <span class="comment">// Only makes sens with AJAX</span></code>
       <a name="documentation-options"></a>
       <p>
-        Note, that when using html element tags, all options you could pass with the options object can be specified as element tags. Simply prefix them with ot- and use dashes.
+        Note, that when using html element tags, all options you could pass with the options object can be specified as element tags. Simply prefix them with data-ot- and use dashes.
       </p>
       <h2>Options</h2>
       <p>
@@ -216,7 +216,7 @@ $('elementId').addTip({ options...}); <span class="comment">// Only makes sens w
           <span class="name">containInViewport</span><span class="description">If set to true, opentips that would appear offscreen are repositioned inside the browser viewport. targetJoints, tipJoints and stems are also repositioned.</span><span class="defaultValue">true</span>
         </div>
 
-        <div class="option" ot-style="documentation" ot="For a list of effects, visit the &lt;a target='_blank' href='http://wiki.github.com/madrobby/scriptaculous'&gt;scriptaculous wiki&lt;/a&gt;.">
+        <div class="option" data-ot-style="documentation" data-ot="For a list of effects, visit the &lt;a target='_blank' href='http://wiki.github.com/madrobby/scriptaculous'&gt;scriptaculous wiki&lt;/a&gt;.">
           <span class="name">showEffect</span><span class="description">The string of the scriptaculous effect you would call as a function on the object.</span><span class="defaultValue">'appear'</span>
         </div>
         <script type="text/javascript">
